@@ -1,3 +1,17 @@
+# Terraform Setup Videos
+
+## Quick Links
+
+1. AWS Solution
+   - [AWS + Terraform: Easy Setup](https://youtu.be/BCMQo0CB9wk)
+   - [GitHub Project](https://github.com/mamonaco1973/aws-setup)
+2. Azure Solution
+   - [Azure + Terraform: Easy Setup](https://youtu.be/wwi3kVgYNOk)
+   - [GitHub Project](https://github.com/mamonaco1973/azure-setup)
+3. GCP Solution
+   - [Google Cloud + Terraform: Easy Setup](https://youtu.be/3spJpYX4f7I)
+   - [GitHub Project](https://github.com/mamonaco1973/gcp-setup)
+   
 # Scaling in the Cloud: AWS Auto Scaling, Azure VMSS, and GCP MIGs
 
 In this video series, we will explore deploying Flask-based microservices and implementing cloud-native scaling solutions across AWS, Azure, and Google Cloud Platform (GCP):
@@ -26,6 +40,7 @@ In this video series, we will explore deploying Flask-based microservices and im
    - [GitHub Project](https://github.com/mamonaco1973/azure-flask-vmss)
 4. GCP Solution
    - [GCP Managed Instance Groups Video](https://youtu.be/AAOZOhREc5o)
+   - [GitHub Project](https://github.com/mamonaco1973/gcp-flask-mig)
 
 # Serverless HTTP Endpoints - AWS Lambdas, Azure Functions and GCP Cloud Functions
 
