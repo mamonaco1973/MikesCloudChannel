@@ -1,5 +1,24 @@
 # Terraform Setup Videos
 
+In this video series, you'll learn how to set up minimal cloud infrastructure across **AWS**, **Azure**, and **Google Cloud** using **Terraform**. Designed for beginners, each step-by-step tutorial guides you through provisioning essential cloud resources, automating configurations, and managing infrastructure efficiently with Terraform.
+
+- **Terraform Basics:** Installing and configuring Terraform alongside cloud-specific CLI tools:
+  - **AWS CLI**
+  - **Azure CLI**
+  - **gcloud CLI**
+  - **Packer** for image automation
+- **Cloud Setup:** Creating secure credentials for each platform:
+  - **AWS:** IAM Users and Access Keys
+  - **Azure:** App Registrations and Client Credentials
+  - **Google Cloud:** Service Accounts and API Activation
+- **Infrastructure Provisioning:** Deploying minimal environments, including:
+  - **🌩️ AWS:** A VPC with a public subnet and an EC2 instance running Ubuntu with Apache installed automatically.
+  - **🔷 Azure:** A Virtual Network (VNet), a public subnet, and an Ubuntu VM with Apache pre-installed during setup.
+  - **☁️ Google Cloud:** An Ubuntu VM that installs Apache on startup using an automated script.
+- **Verification:** Accessing and validating your cloud resources after deployment.
+- **Security & Environment Management:** Using environment variables for secure credential management.
+- **Resource Cleanup:** Safely tearing down infrastructure to avoid unnecessary costs.
+
 ## Quick Links
 
 1. AWS Solution
