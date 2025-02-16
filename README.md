@@ -139,3 +139,22 @@ In this new series, we'll take that same microservice and containerize it using 
 4. GCP Solution
    - [Simple GCP Containers](https://youtu.be/9q0hXgSssPI)
    - [GitHub Project](https://github.com/mamonaco1973/gcp-flask-container/)
+
+# Configuring GitHub Actions in AWS, Azure and GCP
+
+This video series extends the previous tutorial where a Python-based microservice using Flask was deployed across AWS, Azure, and GCP using containers. The focus now is on configuring **GitHub Actions** to automate the build, test, and deployment processes entirely within the GitHub ecosystem.
+
+GitHub Actions is a robust CI/CD tool that helps streamline development pipelines, reduce manual errors, and ensure consistent deployments across environments.
+
+## Quick Links
+
+1. [GitHub Actions](https://youtu.be/Ngsz9pfgBUo)
+2. AWS Solution
+   - [AWS GitHub Actions](https://youtu.be/FQPjUdQ4hLM)
+   - [GitHub Project](https://github.com/mamonaco1973/aws-flask-container/)
+3. Azure Solution
+   - [Azure GitHub Actions](https://youtu.be/MGzcVCAfouQ)
+   - [GitHub Project](https://github.com/mamonaco1973/azure-flask-container/)
+4. GCP Solution
+   - [GCP GitHub Actions](https://youtu.be/ZMlJ_Cj7tY0)
+   - [GitHub Project](https://github.com/mamonaco1973/gcp-flask-container/)
