@@ -158,3 +158,37 @@ GitHub Actions is a robust CI/CD tool that helps streamline development pipeline
 4. GCP Solution
    - [GCP GitHub Actions](https://youtu.be/ZMlJ_Cj7tY0)
    - [GitHub Project](https://github.com/mamonaco1973/gcp-flask-container/)
+    
+# Deploying Active Directory in the Cloud
+
+In this series, we’ll deploy Active Directory across the three major cloud platforms: AWS, Azure, and Google Cloud. You’ll gain hands-on experience with:
+
+- **Setting up cloud-managed Active Directory**:
+  - AWS Directory Service in AWS
+  - Entra Domain Services (aka ADDS) in Azure
+  - Google Managed Microsoft AD in Google Cloud
+- **Configuring secure networking**: VPCs, VNets, and subnets to support domain connectivity.
+- **Joining servers to the AD domain**: Both Linux and Windows servers.
+- **Configuring SSSD**: System Security Services Daemon to authenticate Active Directory users on Linux.
+- **Managing domain-joined servers**:
+  - Creating Organizational Units (OUs)
+  - Managing users and groups
+- **Storing administrator credentials securely**:
+  - AWS Secrets Manager in AWS
+  - Azure Key Vault in Azure
+  - Google Secret Manager in Google Cloud
+- **Comparing pricing, capabilities, and limitations**: Across cloud providers.
+- **Automation**: Using Terraform and shell scripts to fully automate the deployment process across all three clouds—from provisioning the directory service to joining servers to the domain.
+
+## Quick Links
+
+1. [Deploying Active Directory in the Cloud](https://youtu.be/H5lKJPJBL5s)
+2. AWS Solution
+   - [AWS Directory Service](https://youtu.be/1lnSxfFmGPY)
+   - [GitHub Project](https://github.com/mamonaco1973/aws-active-directory/)
+3. Azure Solution
+   - [Azure Entra Domain Services](https://youtu.be/XqRJsGLBOfc)
+   - [GitHub Project](https://github.com/mamonaco1973/azure-directory/)
+4. GCP Solution
+   - [GCP Managed Active Directory](https://youtu.be/gwn_KkiQ99s)
+   - [GitHub Project](https://github.com/mamonaco1973/gcp-directory/)
