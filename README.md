@@ -192,3 +192,49 @@ In this series, we’ll deploy Active Directory across the three major cloud pla
 4. GCP Solution
    - [GCP Managed Active Directory](https://youtu.be/gwn_KkiQ99s)
    - [GitHub Project](https://github.com/mamonaco1973/gcp-directory/)
+
+# Containerizing Applications Using Kubernetes in The Cloud
+
+**This video series complements the [Scaling in the Cloud](https://github.com/mamonaco1973/cloud-scaling-intro/blob/main/README.md) and the [Simple Cloud Containers](https://github.com/mamonaco1973/container-intro/blob/main/README.md) series**, where we deployed a simple Python-based microservice using the Flask framework across different cloud platforms.
+
+In this new series, we'll take that same microservice and containerize it using **Docker**, then deploy it to **Kubernetes clusters** running on the managed Kubernetes services provided by each cloud platform.
+
+This is a **fully automated deployment** of containerized microservices and web apps across AWS, Azure, and GCP — powered by infrastructure-as-code and cloud-native tooling.
+
+We'll build and deploy:
+
+- **A document database-backed microservice** using:
+  - **DynamoDB** for AWS  
+  - **CosmosDB** for Azure  
+  - **Firestore** for GCP  
+
+- **A Docker container** for the Flask microservice, optimized for Kubernetes deployments.
+
+- **Additional standalone Docker containers** that run classic JavaScript games like **Tetris**, **Frogger**, and **Breakout**.
+
+- **Cloud-native container registry workflows**, pushing images to:
+  - **Amazon ECR (Elastic Container Registry)**  
+  - **Azure Container Registry (ACR)**  
+  - **Google Artifact Registry (GAR)**  
+
+- **Kubernetes workloads on managed clusters**, deploying everything to:
+  - **Amazon EKS**  
+  - **Azure AKS**  
+  - **Google GKE**  
+
+- **Kubernetes manifests** including **Deployments**, **Services**, and **Ingress** resources for scalable, fault-tolerant workloads.
+
+- **NGINX as a unified Ingress controller**, exposing all services and games behind a single Load Balancer per cloud.
+
+## Quick Links
+
+1. [Kubernetes In The Cloud](https://youtu.be/6A-DO_ymDQI)
+2. AWS Solution
+   - [Elastic Kubernetes Service](https://youtu.be/Tl2y86V5XSQ)
+   - [GitHub Project](https://github.com/mamonaco1973/aws-k8s/)
+3. Azure Solution
+   - [Azure Kubernetes Service](https://youtu.be/LhFiK1otC7o)
+   - [GitHub Project](https://github.com/mamonaco1973/azure-k8s/)
+4. GCP Solution
+   - [Google Kubernetes Engine](TBD)
+   - [GitHub Project](https://github.com/mamonaco1973/gcp-k8s/)
