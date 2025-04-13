@@ -236,5 +236,5 @@ We'll build and deploy:
    - [Azure Kubernetes Service](https://youtu.be/LhFiK1otC7o)
    - [GitHub Project](https://github.com/mamonaco1973/azure-k8s/)
 4. GCP Solution
-   - [Google Kubernetes Engine](TBD)
+   - [Google Kubernetes Engine](https://youtu.be/ALOM53zq-lw)
    - [GitHub Project](https://github.com/mamonaco1973/gcp-k8s/)
